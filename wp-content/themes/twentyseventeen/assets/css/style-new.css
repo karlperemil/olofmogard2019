@@ -1,0 +1,500 @@
+body a:hover, html a:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 1px #FFFFFF;
+}
+
+a {
+    color: #999;
+    transition: all .2s ease-in-out;
+    outline: none;
+}
+
+
+/* Typographic styles */
+
+.italic {
+    font-style: italic;
+    opacity: 0.75;
+}
+
+.black {
+    color: black !important;
+}
+
+.white {
+    color: white !important;
+}
+
+a:hover {
+    color: white;
+}
+
+.work-styles {
+    padding-top: 30%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#menu {
+    position: initial;
+    left: 0;
+    top: 0;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 60%,rgba(0,0,0,0) 100%); */
+    z-index:100;
+    width: 100%;
+    padding: 4.5rem 7rem 9rem;
+    display: flex;
+    margin-bottom: 0;
+}
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#menu a:hover .menu-plus {
+    padding-right: 15px;
+    text-decoration: none;
+    margin-left: -5px;
+}
+
+#menu a:hover .menu-minus {
+    padding-right: 15px;
+    text-decoration: none;
+    margin-left: -5px;
+}
+
+#menu a:hover .menu-text {
+    text-decoration: none;
+}
+
+#menu-select {
+    /* display: flex; */
+    /* width: 49%; */
+    /* background: red; */
+    text-align: right;
+    flex: 6 0 0;
+    /* transition: all .3s ease-in-out; */
+}
+
+.menu-text {
+    transition: all .25s ease-in-out;
+}
+
+.menu-plus {
+    display: inline-block;
+    padding-right: 10px;
+    transition: all .25s ease-in-out;
+}
+
+.menu-minus {
+    display: none;
+    padding-right: 10px;
+    transition: all .25s ease-in-out;
+}
+
+.fade-gray .menu-plus, .fade-gray .menu-minus, .fade-gray .menu-text {
+    color: #999;
+}
+
+
+
+.title-bar {
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    /* width: 50%; */
+    cursor: pointer;
+    flex: 4 0 0;
+}
+
+.title-bar h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.title-bar h2 {
+    font-size: 1em;
+    color: #999999;
+}
+
+.work-styles {
+    background:grey;
+    min-height:100vh;
+}
+
+#menu p {
+    padding-bottom: .4em;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    font-size: 2.5rem;
+}
+
+#menu-select p:nth-child(2n){
+    padding-left: 1em;
+}
+
+body,html {
+    background: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    font-style: normal;
+    font-size: 9px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content3d {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-title-wrap {
+    /* position: relative; */
+    /* transform: translateY(50%); */
+    /* top: -50%; */
+    /* z-index: 100; */
+}
+
+.ej-logo {
+    width: 10rem;
+    height: 10rem;
+    background: url('/wp-content/themes/twentyseventeen/assets/images/ej-logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.main-title {
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.main-title h1 {
+    /* font-size: 2.5vw; */
+    /* text-align: left; */
+    /* line-height: 1.3em; */
+    /* width: 60%; */
+    max-width: 100%;
+}
+
+.main-title h1 b {
+    font-style: initial;
+}
+
+.main-title h2 {
+    padding-top: 0;
+    color: white;
+}
+
+/* Work */
+
+.page-template-template-work .menu-plus-work {
+    display: none;
+}
+
+.page-template-template-work .menu-minus-work {
+    display: initial;
+}
+
+.page-template-template-work .menu-padder {
+    /* margin-top: 4em; */
+}
+
+.post-tags {
+    color: #999999;
+    font-size: 2.5rem;
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+button {
+    background: black;
+    border: 0.05em solid white;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    font-size: 2.5rem;
+    padding: 0.6em 1.2em;
+    transition: all .3s ease-in-out;
+    border-radius: 0;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    /* float: right; */
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+article h2 {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: .3em;
+}
+
+article h2:before {
+    display: none;
+    content: '';
+    width: .7em;
+    height: .7em;
+    background-image: url('/wp-content/themes/twentyseventeen/assets/images/work-enter.svg');
+    background-repeat: no-repeat;
+    margin: .3em .3em 0 0;
+}
+
+article {
+    margin-bottom: 9rem;
+    cursor: pointer;
+    /* min-height: 80vh; */
+    /* display: flex; */
+}
+
+.work-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transition: .3s ease-in-out; */
+    background-position: center center;
+    padding-bottom: 61vh;
+    width: 100%;
+    cursor: pointer;
+    flex: 100%;
+}
+.work-image:hover {
+    background-size: cover;
+}
+
+
+/* About */
+
+.page-template-template-about .menu-plus-about {
+    display: none;
+}
+
+.page-template-template-about .menu-minus-about {
+    display: initial;
+}
+
+.about-tagline p {
+    font-size: 35px;
+}
+
+
+section {
+    margin-top: 9rem;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+section.collab {
+    margin-top: 12rem;
+    margin-bottom: 7rem;
+}
+
+.services {
+    /* min-height: 96vh; */
+    position: relative;
+    margin-top: 0;
+}
+.page-template-template-services .menu-plus-about.menu-plus {
+    display: none;
+}
+
+.page-template-template-services .menu-minus-about.menu-minus {
+    display: inline;
+}
+
+section.services p {
+    font-size: 4rem;
+}
+
+.vertical {
+    position: relative;
+    top: -50%;
+    transform: translateY(50%);
+}
+
+section p {
+    font-size: 3rem;
+}
+
+.section-title {
+    margin-bottom: 1em;
+    font-size: 2rem;
+}
+
+.clients {
+    width: 49%;
+}
+
+.experience {
+    width: 49%;
+}
+
+.experience-col {
+    width: 50%;
+    float: left;
+}
+
+.collab a {
+    /* color: white; */
+}
+.collab h1 {
+    margin-bottom: 0.6em;
+}
+
+.collab-mailto {
+    margin-bottom: 7rem;
+    font-size: 3.5rem;
+    /* text-decoration: underline; */
+    /* border-bottom: 2px solid white; */
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: all .3s ease-in-out;
+}
+
+.collab-mailto:hover {
+    /* border-bottom: 2px solid gray; */
+}
+
+.collab-mailto a {
+    /* text-decoration: none !important; */
+    /* background: white; */
+    /* color: black; */
+    /* transition: all .3s ease-in-out; */
+}
+
+.page-template-template-work .collab-mailto a {/* transition: color .3s ease-in-out; */}
+.page-template-template-work .collab-mailto a:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,0.7);
+}
+
+p.thirds {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.experience-place {
+    font-size: 3rem;
+    width: 65%;
+    display: inline-block;
+}
+
+.experience-year {
+    font-size: 2rem;
+    width: 32%;
+    display: inline-block;
+    text-align: right;
+}
+
+.experience-title {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+    color: #999999;
+}
+
+
+/* Desktop */
+
+h1 {
+    font-size: 45px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: white;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.4em;
+    font-weight: 400;
+    margin: 0;
+    /* width: 50%; */
+}
+
+.clients p {
+    line-height: 1.6em;
+}
+
+.grey {
+    color: rgba(153,153,153,1);
+}
+
+.hide-desktop {
+    display: none !important;
+}
+
+.nowrap {
+    white-space:nowrap;
+}
+
+@media screen and (max-width: 600px){
+    #page .work-text-left {
+        flex: 100%;
+    }
+
+    #page .work-text-right {
+        flex: 100%;
+        flex-direction: column;
+    }
+
+    .flex-cont {
+        flex-flow: column;
+    }
+}
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 425px) {
+    .main-title {
+        text-align: center;
+    }
+    .main-title h1 {
+        width: 100%;
+    }
+
+    .show-mobile {
+        display: block !important;
+    }
+
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .show-desktop {
+        display: initial !important;
+    }
+
+    .hide-desktop {
+        display: none !important; 
+    }
+}

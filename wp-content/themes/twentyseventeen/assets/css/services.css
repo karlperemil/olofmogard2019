@@ -1,0 +1,35 @@
+.page-template-template-services #page {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: 100vh;
+    top: 17rem;
+    /* bottom: 0; */
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-template-template-services #menu {
+    /* display: none; */
+    position: absolute;
+}
+
+.page-template-template-services canvas {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@media (max-width: 768px){
+    section.clients {
+        width: 100%;
+    }
+    section.clients p {
+        font-size: 3rem;
+    }
+
+    section.experience {
+        width: 100%;
+    }
+}

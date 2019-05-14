@@ -22,17 +22,17 @@
 /** The name of the database for WordPress */
 
 
-$dbname = 'portfolio2018';
+$dbname = 'olofmogard2019';
 $dbpass = 'root';
 $dbuser = 'root';
 $dbhost = 'localhost:8889';
 
 $whitelist = array('127.0.0.1','192.168.0.11', "::1");
 if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
-	$dbname = 'emilj_se';
-	$dbuser = 'emilj_se';
-	$dbpass = 'Gh2BPz92';
-	$dbhost = 'emilj.se.mysql';
+	$dbname = 'olofmogard_com';
+	$dbuser = 'olofmogard_com';
+	$dbpass = 'zBeHivMMcwChGLmP24kQcNZQ';
+	$dbhost = 'olofmogard.com.mysql';
 }
 
 define('DB_NAME', $dbname);

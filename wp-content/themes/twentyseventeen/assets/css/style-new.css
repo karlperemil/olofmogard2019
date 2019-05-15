@@ -219,8 +219,13 @@ a:hover {
     padding-left: 1em;
 }
 
+#menu-select p:nth-child(3n){
+    padding-left: 1em;
+}
+
+
 body,html {
-    background: black;
+    background: #0000FF;
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     font-style: normal;

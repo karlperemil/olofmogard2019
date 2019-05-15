@@ -10,7 +10,7 @@
 			}
 		?>
 		<p><a href="<?php echo $serviceslink ?>" class="menu-about"><span class="menu-plus-about menu-plus">+</span><span class="menu-minus-about menu-minus">-</span><span class="menu-text">About</span></a></p>
- 		 <p><a href="<?php echo $worklink ?>" class="menu-work"><span class="menu-plus-work menu-plus">+</span><span class="menu-minus-work menu-minus">-</span><span class="menu-text">Work</span></a></p>
+ 		 <p><a href="<?php echo $worklink ?>" class="menu-work"><span class="menu-plus-work menu-plus">+</span><span class="menu-minus-work menu-minus">-</span><span class="menu-text">Work</span></a></p><p><a href="<?php echo $worklink ?>" class="menu-work"><span class="menu-plus-work menu-plus">+</span><span class="menu-minus-work menu-minus">-</span><span class="menu-text">Feed</span></a></p>
 	</div>
 	<div id="title-bar" class="title-bar">
         <!-- <h1 class="hide-mobile">Emil Jönsson</h1> -->

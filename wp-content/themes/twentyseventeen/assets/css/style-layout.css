@@ -67,7 +67,9 @@
 .menu-logo {
     margin: 0;
     width: 5rem;
+    display: inline-block;
     height: 5rem;
+    /* text-align: right; */
 }
 
 .page-template-template-work article a {

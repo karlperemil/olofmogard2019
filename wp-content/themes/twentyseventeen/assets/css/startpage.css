@@ -3,6 +3,10 @@
     flex-direction: row;
 }
 
+.start-links-wrapper a {
+    text-decoration: underline;
+}
+
 .start-links-left {
     font-size: 3.3rem;
     font-weight: 400;
@@ -150,6 +154,9 @@
     .start-links-right, .start-links-left {
         padding-left: 0;
         font-size: 2.75rem;
+    }
+    #menu-select a {
+        font-size: 2.5rem;
     }
 }
 

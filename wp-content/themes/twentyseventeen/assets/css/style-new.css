@@ -179,18 +179,19 @@ a:hover {
     transition: all .25s ease-in-out;
 }
 
-.fade-gray .menu-plus, .fade-gray .menu-minus, .fade-gray .menu-text {
+/*.fade-gray .menu-plus, .fade-gray .menu-minus, .fade-gray .menu-text {
     color: #999;
-}
+}*/
 
 
 
 .title-bar {
-    /* display: inline-block; */
+    display: inline-block;
     /* vertical-align: top; */
     /* width: 50%; */
     cursor: pointer;
     flex: 4 0 0;
+    text-align: right;
 }
 
 .title-bar h1 {

@@ -222,11 +222,10 @@ a:hover {
 body,html {
     background: black;
     color: white;
-    font-family: 'Roboto Mono', monospace, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-size: 9px;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
 }
 
 .content3d {
@@ -303,14 +302,13 @@ body,html {
 button {
     background: black;
     border: 0.05em solid white;
-    font-family: 'Roboto Mono', monospace, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 2.5rem;
     padding: 0.6em 1.2em;
     transition: all .3s ease-in-out;
     border-radius: 0;
     cursor: pointer;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 400;
+    font-weight: 500;
     /* float: right; */
 }
 

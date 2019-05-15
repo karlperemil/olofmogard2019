@@ -5,10 +5,9 @@ get_header();
 <div class="main-title-wrap" id="main-title-wrap">
     <div class="main-title">
         <h1 class="startpage-title">
-        Hej! I’m a 90’s kid from Sweden.<br>
+        Hej! I’m a 90’s kid from Sweden.<br class="break-mobile"><br>
         I design interwebs, identities &<br>
         digital experiences for:
-        <!-- br class="break-mobile"-->
         </h1>
     </div>
 </div>

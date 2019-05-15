@@ -74,7 +74,7 @@ a:hover {
     /* display: flex; */
     /* width: 49%; */
     /* background: red; */
-    text-align: right;
+    text-align: left;
     flex: 6 0 0;
     /* transition: all .3s ease-in-out; */
 }

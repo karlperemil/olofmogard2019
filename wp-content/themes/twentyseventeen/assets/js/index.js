@@ -109,8 +109,8 @@ window.$ = jQuery;
 
         $(".work-col1 h1").fitText(.9, { minFontSize: '12px', maxFontSize: '80px' });
         
-        window.dvdwidth = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 16.8;
-        window.dvdheight = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 8.4;
+        window.dvdwidth = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 33.6;
+        window.dvdheight = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 16.8;
         window.xpos = Math.random() * $(window).width() - dvdwidth;
         window.ypos = Math.random() * $(window).height() - dvdheight;
         window.xspeed = 2;

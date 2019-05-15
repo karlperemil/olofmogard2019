@@ -395,7 +395,7 @@ section.collab {
     /* min-height: 96vh; */
     position: relative;
     margin-top: 0;
-    max-width: 80%;
+    max-width: 90%;
     /* height: 100%; */
 }
 .page-template-template-services .menu-plus-about.menu-plus {
@@ -407,10 +407,9 @@ section.collab {
 }
 
 section.about p {
-    font-size: 4rem;
+    font-size: 5rem;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
-
 }
 
 .vertical {

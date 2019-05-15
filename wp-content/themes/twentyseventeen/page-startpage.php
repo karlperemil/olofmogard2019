@@ -2,6 +2,7 @@
 /* Template Name: Start Page */
 get_header();
 ?>
+<img id="dvd" src="/wp-content/themes/twentyseventeen/assets/images/om-dvd_02.svg">
 <div class="main-title-wrap" id="main-title-wrap">
     <div class="main-title">
         <h1 class="startpage-title">

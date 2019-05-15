@@ -26,6 +26,16 @@
     -webkit-font-smoothing: antialiased;
 }
 
+#dvd {
+    width: 16.8rem;
+    height: 8.4rem;
+    position: absolute;
+    mix-blend-mode: exclusion;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
 .evil {
     opacity: 0.5;
     text-decoration: line-through;

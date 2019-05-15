@@ -231,7 +231,7 @@ body .work-col1 h1 {
         text-align: left;
         margin: 15rem auto 0;
         padding-bottom: 0;
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
 
     .break-mobile {
@@ -250,7 +250,7 @@ body .work-col1 h1 {
     }
 
     .page-template-page-startpage .menu-logo {
-        display: block !important;
+        display: inline-block !important;
     }
 
     .page-template-page-startpage #title-bar {

@@ -1,5 +1,6 @@
 .page-template-page-startpage #title-bar {
     /* display: none; */
+    text-align: right;
 }
 
 .page-template-page-startpage #page {
@@ -12,7 +13,7 @@
     /* bottom: 0; */
     z-index: 2;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .page-template-page-startpage #menu {
@@ -42,7 +43,7 @@
 }
 
 .page-template-page-startpage h1.startpage-title {
-    font-size: 4.5rem;
+    font-size: 5rem;
     margin: 4.8rem auto;
     padding-top: 0;
     line-height: 1.42;
@@ -56,6 +57,7 @@
 }
 .page-template-page-startpage .menu-logo {
     display: none;
+    /* text-align: right; */
 }
 .page-template-page-startpage #frontpage-footer {
     opacity: 0;

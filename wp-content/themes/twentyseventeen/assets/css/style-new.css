@@ -130,7 +130,7 @@ a:hover {
     display: inline-block;
     vertical-align: top;
     padding-left: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 #menu-select p:nth-child(2n){
@@ -163,18 +163,19 @@ body,html {
     /* z-index: 100; */
 }
 
-.ej-logo {
+.om-logo-white {
     width: 10rem;
     height: 10rem;
-    background: url('/wp-content/themes/twentyseventeen/assets/images/ej-logo.svg');
+    background: url('/wp-content/themes/twentyseventeen/assets/images/om-logo-white.svg');
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: right;
     margin: auto;
 }
 
 .main-title {
-    text-align: center;
-    padding: 0 3rem;
+    text-align: left;
+    padding: 0 7rem;
 }
 
 .main-title h1 {

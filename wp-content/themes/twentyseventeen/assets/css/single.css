@@ -229,9 +229,9 @@ body .work-col1 h1 {
 
     .page-template-page-startpage .main-title h1.startpage-title {
         text-align: left;
-        margin: 15rem auto 0;
+        margin: 13rem auto 3rem;
         padding-bottom: 0;
-        font-size: 3.5rem;
+        font-size: 3.4rem;
     }
 
     .break-mobile {

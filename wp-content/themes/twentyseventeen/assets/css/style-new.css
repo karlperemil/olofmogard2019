@@ -5,6 +5,15 @@
 }
 */
 
+/* html characters */
+
+.html-character {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'helvetica', sans-serif;
+    font-size: 6rem;
+    line-height: 0;
+}
+
 a {
     color: white;
     transition: all .2s ease-in-out;
@@ -407,7 +416,7 @@ section.collab {
 }
 
 section.about p {
-    font-size: 4.5rem;
+    font-size: 4.4rem;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
 }

@@ -151,11 +151,17 @@
     }
     .menu-padder {
         padding: 0 3.5rem;
-        margin-top: -2.25em;
+        margin-top: -4rem;
     }
     #menu {
-        padding: 3.5rem 3.5rem 9rem;
+        padding: 3.5rem 3.5rem 5rem;
+        position: fixed !important;
     }
+
+    .page-template-template-services #menu, .page-template-template-work #menu {
+        background-image: linear-gradient(rgba(0,0,255,1), rgba(0,0,255,1), rgba(0,0,255,0));
+    }
+    
     .page-template-page-startpage #frontpage-footer {
         padding: 4.5rem;
     }
@@ -175,6 +181,10 @@
     }
     section.about p, section.services p, section.clients p, section.experience p, .experience-place {
         font-size: 3.15rem;
+        /* vertical-align: top; */
+    }
+    .section-title {
+        font-size: 2.5rem;
     }
     .challenge {
         font-size: 5.5rem;
@@ -184,6 +194,26 @@
     }
     .pixel-perfect {
         font-size: 5rem;
+    }
+    .page-template-template-work .menu-logo, .page-template-template-services .menu-logo {
+        margin: 0.9rem 0 0 0;
+        width: 4rem;
+    }
+    .experience-title, .experience-year {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 2.5rem;
+    }
+    .experience-year {
+        line-height: 2.1;
+    }
+
+    /*Footer*/
+
+    .collab-mailto {
+        font-size: 3.15rem;
+    }
+    .collab .thirds {
+        font-size: 2.5rem;
     }
 }
 

@@ -18,7 +18,7 @@
 
 .page-template-template-work .menu-logo {
     margin: 0;
-    width: 5rem;
+    width: 6rem;
 }
 .underline {
     text-decoration: underline;
@@ -66,9 +66,10 @@
 
 .menu-logo {
     margin: 0;
-    width: 5rem;
+    width: 6rem;
     display: inline-block;
-    height: 5rem;
+    height: 6rem;
+    /* padding-top: 1rem; */
     /* text-align: right; */
 }
 

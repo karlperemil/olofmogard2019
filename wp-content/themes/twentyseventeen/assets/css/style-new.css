@@ -144,7 +144,6 @@ a:hover {
     display: block;
     color: white;
     text-decoration: none;
-    
 }
 
 #menu a:hover .menu-plus {
@@ -239,6 +238,7 @@ a:hover {
 body,html {
     background: #0000FF;
     color: white;
+    /*mix-blend-mode: difference;*/
     font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-size: 9px;

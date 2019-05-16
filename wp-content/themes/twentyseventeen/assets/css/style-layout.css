@@ -69,6 +69,7 @@
     width: 6rem;
     display: inline-block;
     height: 6rem;
+    /* position: fixed; */
     /* padding-top: 1rem; */
     /* text-align: right; */
 }

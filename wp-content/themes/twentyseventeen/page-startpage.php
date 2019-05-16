@@ -12,17 +12,17 @@ get_header();
         </h1>
         <div class="start-links-wrapper">
                 <div class="start-links-left">
-                <div class="evil">Evil corporations</div>
-                <div class="evil">Dubious motives</div>
+                <div class="evil"><span class="strike">Evil corporations</span></div>
+                <div class="evil"><span class="strike">Dubious motives</span></div>
                 <a href="..." class="good">Schools</a>
                 <a href="..." class="good">Festivals</a>
-                <div class="evil">Influencer beefs</div>
+                <div class="evil"><span class="strike">Influencer beefs</span></div>
             </div>
             <div class="start-links-right">
                 <a href="..." class="good">Software companies</a>
                 <a href="..." class="good">Myself</a>
-                <div class="evil">Conservatives</div>
-                <div class="evil">"See it as an experience"</div>
+                <div class="evil"><span class="strike">Conservatives</span></div>
+                <div class="evil"><span class="strike">"See it as an experience"</span></div>
                 <a href="..." class="good">Posh plazas</a>
             </div>
         </div>

@@ -32,8 +32,20 @@ get_header();
                 <span style="text-decoration: underline;">Say hello</span> if you are looking for a collaboration.</p>
 
             </section>
+            <section class="services">
+                <h3 class="faded section-title">Services</h3>
+                <p>Art direction<br>
+                Logotypes<br>
+                Visual identity<br>
+                Illustration<br>
+                Style guides<br>
+                UI/UX design<br>
+                HTML & CSS<br>
+                Motion design<br>
+                Magazines & print</p>
+            </section>
             <section class="clients">
-                <h3 class="grey section-title">Clients</h3>
+                <h3 class="faded section-title">Clients</h3>
                 <p>Nespresso</p>
                 <p>Röda korset</p>
                 <p>Adobe</p>
@@ -50,7 +62,7 @@ get_header();
                 <p>Neuroförbundet</p>
             </section>
             <section class="experience">
-                <h3 class="grey section-title">Experience</h3>
+                <h3 class="faded section-title">Experience</h3>
                     <div class="experience-place">Freelance</div>
                     <div class="experience-year">2016</div>
                     <div class="experience-title">Web & Game developer</div>

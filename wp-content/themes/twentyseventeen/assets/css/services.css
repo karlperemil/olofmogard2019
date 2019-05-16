@@ -14,6 +14,8 @@
 .page-template-template-services #menu {
     /* display: none; */
     position: absolute;
+    /* padding-bottom: 0; */
+    /* margin-bottom: 0; */
 }
 
 .page-template-template-services canvas {

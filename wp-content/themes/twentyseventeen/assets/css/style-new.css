@@ -7,11 +7,25 @@
 
 /* html characters */
 
-.html-character {
-    -webkit-font-smoothing: antialiased;
-    font-family: 'helvetica', sans-serif;
+.challenge {
+    font-size: 8rem;
+    line-height: 0;
+    font-weight: 200;
+    opacity: 0.6;
+}
+
+.morale {
     font-size: 6rem;
     line-height: 0;
+    font-weight: 200;
+    opacity: 0.6;
+}
+
+.pixel-perfect {
+    font-size: 7rem;
+    line-height: 0;
+    font-weight: 200;
+    opacity: 0.6;
 }
 
 a {
@@ -167,7 +181,7 @@ a:hover {
     /* width: 49%; */
     /* background: red; */
     text-align: left;
-    flex: 6 0 0;
+    flex: 10 0 0;
     /* transition: all .3s ease-in-out; */
 }
 
@@ -196,7 +210,7 @@ a:hover {
 .title-bar {
     display: inline-block;
     /* vertical-align: top; */
-    /* width: 50%; */
+    width: 50%;
     cursor: pointer;
     flex: 4 0 0;
     text-align: right;

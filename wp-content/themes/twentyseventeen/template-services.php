@@ -22,8 +22,8 @@ get_header();
             ?>
 
             <section class="about">
-                <p>Are you looking for a friendly designer driven by challenges <span style="font-size: 8rem; line-height: 0; font-weight: 200; opacity: 0.6;">&#3198</span><br>morale <span style="font-size: 6rem; line-height: 0; font-weight: 200; opacity: 0.6;">&#9895</span> and pixel perfection 	
-                <span style="font-size: 7rem; line-height: 0; font-weight: 200; opacity: 0.6;">&#8865</span> ? Then you have come to the right place.
+                <p>Are you looking for a friendly designer driven by challenges <span class="challenge">&#3198</span><br>morale <span class="morale">&#9895</span> and pixel perfection 	
+                <span class="pixel-perfect">&#8865</span> ? Then you have come to the right place.
                 <br>
                 <br>
                 My name is Olof. I’m a Swede based in Stockholm who love culture, arts & design. I believe that the recipe for a successful project is passion, trust and hard work.

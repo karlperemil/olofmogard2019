@@ -150,10 +150,11 @@
         font-size: 9px;
     }
     .menu-padder {
-        padding: 0 4.5rem;
+        padding: 0 3.5rem;
+        margin-top: -2.25em;
     }
     #menu {
-        padding: 4.5rem 4.5rem 9rem;
+        padding: 3.5rem 3.5rem 9rem;
     }
     .page-template-page-startpage #frontpage-footer {
         padding: 4.5rem;
@@ -172,8 +173,17 @@
     .about {
         max-width: 100%;
     }
-    section.about p {
-        font-size: 3.3rem;
+    section.about p, section.services p, section.clients p, section.experience p, .experience-place {
+        font-size: 3.15rem;
+    }
+    .challenge {
+        font-size: 5.5rem;
+    }
+    .morale {
+        font-size: 4.5rem;
+    }
+    .pixel-perfect {
+        font-size: 5rem;
     }
 }
 

@@ -433,10 +433,10 @@ section.clients p {
 }
 
 section p {
-    font-size: 3rem;
+    font-size: 3.3rem;
 }
 
-.section-title, .experience-title, .experience-year {
+.section-title, .experience-title, .experience-year, section.collab.hideme h1 {
     font-weight: 300;
     font-family: 'helvetica', sans-serif;
     margin-bottom: 1em;
@@ -468,13 +468,16 @@ section p {
 }
 
 .collab-mailto {
+    -webkit-font-smoothing: antialiased;
     margin-bottom: 7rem;
-    font-size: 3.5rem;
+    font-size: 4.4rem;
+    font-weight: 400;
     /* text-decoration: underline; */
     /* border-bottom: 2px solid white; */
     width: -moz-fit-content;
     width: fit-content;
     transition: all .3s ease-in-out;
+    text-decoration: underline;
 }
 
 .collab-mailto:hover {

@@ -42,7 +42,7 @@ get_header();
                 UI/UX design<br>
                 HTML & CSS<br>
                 Motion design<br>
-                Magazines & print</p>
+                Magazines & Reports</p>
             </section>
             <section class="clients">
                 <h3 class="faded section-title">Selected clients</h3>

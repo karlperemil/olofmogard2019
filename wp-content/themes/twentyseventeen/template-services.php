@@ -45,47 +45,40 @@ get_header();
                 Magazines & print</p>
             </section>
             <section class="clients">
-                <h3 class="faded section-title">Clients</h3>
-                <p>Nespresso</p>
-                <p>Röda korset</p>
-                <p>Adobe</p>
-                <p>Volkswagen</p>
-                <p>Swedish Armed Forces</p>
-                <p>Finn</p>
-                <p>Saab</p>
-                <p>Sturekvarteret</p>
-                <p>IOGT-NTO</p>
-                <p>Socialdemokraterna</p>
-                <p>Telenor</p>
-                <p>Cheetos</p>
-                <p>Prime</p>
-                <p>Neuroförbundet</p>
+                <h3 class="faded section-title">Selected clients</h3>
+                <p>Adobe<br>
+                House of Dagmar<br>
+                IKEA<br>
+                Kosta Boda<br>
+                NCC<br>
+                WWF<br>
+                Scandic<br>
+                Sturekvarteret<br>
+                Utrikesdepartementet<br>
+                Uddevalla Kommun
+                </p>
             </section>
             <section class="experience">
                 <h3 class="faded section-title">Experience</h3>
                     <div class="experience-place">Freelance</div>
-                    <div class="experience-year">2016</div>
-                    <div class="experience-title">Web & Game developer</div>
+                    <div class="experience-year">2018 – 20XX</div>
+                    <div class="faded experience-title">Art director & Visual designer</div>
                     <!-- -->
-                    <div class="experience-place">Reform Act</div>
-                    <div class="experience-year">2013-2016</div>
-                    <div class="experience-title">Fullstack developer</div>
+                    <div class="experience-place">Accomplice</div>
+                    <div class="experience-year">2016 – 2018</div>
+                    <div class="faded experience-title">Digital designer</div>
                     <!-- -->
-                    <div class="experience-place">TRY/APT</div>
-                    <div class="experience-year">2011-2013</div>
-                    <div class="experience-title">Front-end Developer</div>
-                    <!-- -->
-                    <div class="experience-place">Acne Digital</div>
-                    <div class="experience-year">2010-2011</div>
-                    <div class="experience-title">Flash Developer</div>
-                    <!-- -->
-                    <div class="experience-place">Acne Digital</div>
-                    <div class="experience-year">2009-2010</div>
-                    <div class="experience-title">Flash Developer Intern</div>
+                    <div class="experience-place">Tiny Studio</div>
+                    <div class="experience-year">2015 – 2016</div>
+                    <div class="faded experience-title">UI/UX designer & Creative</div>
                     <!-- -->
                     <div class="experience-place">Hyper Island</div>
-                    <div class="experience-year">2008-2010</div>
-                    <div class="experience-title">Digital Media Programme</div>
+                    <div class="experience-year">2014 – 2016</div>
+                    <div class="faded experience-title">Digital Media Programme</div>
+                    <!-- -->
+                    <div class="experience-place">Älvkullegymnasiet</div>
+                    <div class="experience-year">2009 – 2012</div>
+                    <div class="faded experience-title">Motion Picture studies</div>
                     <!-- -->
             </section>
             <?php

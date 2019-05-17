@@ -93,7 +93,15 @@ window.$ = jQuery;
 
         $('article').click(function(e){
             if( $(e.currentTarget).hasClass('blog-image') ){
-                openModal($(e.currentTarget).attr('data-id'));
+                if($(e.currentTarget).find('video').length >= 1){
+                    var $el = $(e.currentTarget).find('video');
+                    $el.clone().appendTo('#blog-modal');
+                    window.hasVideoOpen = true;
+                    openModal('');
+                }
+                else {
+                    openModal($(e.currentTarget).attr('data-id'));
+                }
             }
             else {
                 document.location.href = $(e.currentTarget).attr('data-id');
@@ -213,14 +221,21 @@ function getCookie(cname) {
 })(jQuery);
 
 
-function openModal(imageURL){
+function openModal(url){
+    console.log(url + ' url');
     $('body').addClass('no-scroll');
     $('#blog-modal').addClass('is-visible');
-    $('#blog-modal img').attr('src',imageURL);
+    $('#blog-modal img').attr('src',url);
+    $('#blog-modal img').show();
     $('#blog-modal').css('top',$(window).scrollTop())
+    if(url == ''){
+        $('#blog-modal img').hide();
+    }
 }
 
 function closeModal(){
     $('body').removeClass('no-scroll');
     $('#blog-modal').removeClass('is-visible');
+    $('#blog-modal').find('video').remove();
+    window.hasVideoOpen = false;
 }

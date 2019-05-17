@@ -92,8 +92,17 @@ window.$ = jQuery;
         });
 
         $('article').click(function(e){
-            document.location.href = $(e.currentTarget).attr('data-id');
+            if( $(e.currentTarget).hasClass('blog-image') ){
+                openModal($(e.currentTarget).attr('data-id'));
+            }
+            else {
+                document.location.href = $(e.currentTarget).attr('data-id');
+            }
         });
+
+        $('.blog-modal-close').click(function(){
+            closeModal();
+        })
 
         var count = 0;
         $('.menu-padder section').each(function(){
@@ -202,4 +211,15 @@ function getCookie(cname) {
   
     };
 })(jQuery);
-  
+
+
+function openModal(imageURL){
+    $('body').addClass('no-scroll');
+    $('#blog-modal').addClass('is-visible');
+    $('#blog-modal img').attr('src',imageURL);
+}
+
+function closeModal(){
+    $('body').removeClass('no-scroll');
+    $('#blog-modal').removeClass('is-visible');
+}

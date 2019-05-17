@@ -30,3 +30,8 @@ get_header();
     ?>
 
 </div>
+
+<div id="blog-modal">
+    <div class="blog-modal-close">X</div>
+    <img class="blog-modal-image" src="">
+</div>

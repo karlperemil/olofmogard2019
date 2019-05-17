@@ -481,6 +481,7 @@ function twentyseventeen_scripts() {
 	wp_enqueue_style( 'style-single', get_theme_file_uri( '/assets/css/single.css' ), array( 'twentyseventeen-style' ) );
 	wp_enqueue_style( 'style-startpage', get_theme_file_uri( '/assets/css/startpage.css' ), array( 'twentyseventeen-style' ) );
 	wp_enqueue_style( 'style-services', get_theme_file_uri( '/assets/css/services.css' ), array( 'twentyseventeen-style' ) );
+	wp_enqueue_style( 'style-blog', get_theme_file_uri( '/assets/css/blog.css' ), array( 'twentyseventeen-style' ) );
 
 
 	wp_register_script('index-emil', get_theme_file_uri( '/assets/js/index.js' ), array('jquery','jquery-scrollto'), NULL);

@@ -122,8 +122,8 @@ window.$ = jQuery;
         window.dvdheight = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 15;
         window.xpos = Math.random() * $(window).width() - dvdwidth;
         window.ypos = Math.random() * $(window).height() - dvdheight;
-        window.xspeed = 4;
-        window.yspeed = 2;
+        window.xspeed = 2;
+        window.yspeed = 1;
         requestAnimationFrame(animate);
     });
 

@@ -16,12 +16,17 @@ get_header();
     $postcount = $wp_query->found_posts;
     if ( have_posts() ) :
         while ( have_posts() ) : the_post();
-        ?>
-            <article class="blog-image" data-id="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>">
-            <?php //the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full', 'title' => 'Feature image']); ?>
-            <div style="background-image: url('<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>?cacheBuster=1')" class="work-image hideme-half">
-            </div>
-            </article>
+            if( get_post_meta($post->ID, 'video', true) == true ): ?>
+                <article class="blog-image" data-id="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>">
+                    <?php the_content(); ?>
+                </article>
+            <?php else : ?>
+                <article class="blog-image" data-id="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>">
+                <?php //the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full', 'title' => 'Feature image']); ?>
+                <div style="background-image: url('<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>?cacheBuster=1')" class="work-image hideme-half">
+                </div>
+                </article>
+            <?php endif; ?>
         <?php
         endwhile;
     endif;

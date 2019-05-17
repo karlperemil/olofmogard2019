@@ -4,6 +4,12 @@ get_header();
 ?>
 <div id="return-button"></div>
 <div class="menu-padder">
+<div class="feed-text-wrapper">
+    <div class="big-title">Feed of graphics</div>
+    <div class="body-text">A mixed set of personal projects,<br>
+    client work and experiments.</div>
+</div>
+
     <?php
     $paged = 1;
     $args = array(

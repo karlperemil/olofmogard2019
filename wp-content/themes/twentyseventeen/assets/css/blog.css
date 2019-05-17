@@ -47,3 +47,13 @@ article.blog-image {
 body.no-scroll {
     overflow-y: hidden;
 }
+
+body.page-template-template-blog {
+    background: black;
+}
+
+.feed-text-wrapper {
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+}

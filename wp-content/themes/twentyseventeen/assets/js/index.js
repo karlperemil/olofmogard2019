@@ -217,6 +217,7 @@ function openModal(imageURL){
     $('body').addClass('no-scroll');
     $('#blog-modal').addClass('is-visible');
     $('#blog-modal img').attr('src',imageURL);
+    $('#blog-modal').css('top',$(window).scrollTop())
 }
 
 function closeModal(){

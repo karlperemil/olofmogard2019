@@ -1,3 +1,17 @@
+.big-title {
+    font-size: 7.25rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.body-text {
+    font-size: 4.4rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
 .start-links-wrapper {
     display: flex;
     flex-direction: row;
@@ -275,6 +289,9 @@
         1%  {opacity: 1;}
         100% { width: 100%; opacity: 1;}
 }
+.page-template-template-services .menu-padder, .page-template-template-startpage .menu-padder {
+    /* padding-top: 4rem; */
+}
 
 .page-template-page-startpage #title-bar {
     /* display: none; */
@@ -326,7 +343,7 @@
     opacity: 0;
     font-size: 6rem;
     padding: 0;
-    margin: 8rem 0 8rem 0;
+    margin: 11rem 0 8rem 0;
     padding-top: 0;
     line-height: 1.5;
     width: 100%;

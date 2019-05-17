@@ -1,0 +1,19 @@
+.page-template-template-blog .menu-padder {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.blog-image {
+    flex: 0 33%;
+    /* width: 50%; */
+    /* margin-right: 0%; */
+    padding-right: 4rem;
+    margin-bottom: 4rem;
+}
+
+.page-template-template-blog .collab {
+    flex: 1 100%;
+}

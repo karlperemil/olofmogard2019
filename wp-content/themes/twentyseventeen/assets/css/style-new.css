@@ -377,7 +377,7 @@ article {
     background-size: cover;
     /* transition: .3s ease-in-out; */
     background-position: center center;
-    padding-bottom: 61vh;
+    padding-bottom: 125%;
     width: 100%;
     cursor: pointer;
     flex: 100%;
@@ -394,6 +394,16 @@ article {
 }
 
 .page-template-template-about .menu-minus-about {
+    display: initial;
+}
+
+/* blog */
+
+.page-template-template-blog .menu-plus-blog {
+    display: none;
+}
+
+.page-template-template-blog .menu-minus-blog {
     display: initial;
 }
 

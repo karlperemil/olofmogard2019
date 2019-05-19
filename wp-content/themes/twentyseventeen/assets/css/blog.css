@@ -49,7 +49,7 @@ body.no-scroll {
     overflow-y: hidden;
 }
 
-body.page-template-template-blog {
+body.page-template-template-blog, html.page-template-template-blog {
     background: black;
 }
 

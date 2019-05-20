@@ -38,10 +38,10 @@ article.blog-image {
 
 .blog-modal-close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2.5rem;
+    right: 7rem;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 5rem;
     z-index: 99999;
 }
 

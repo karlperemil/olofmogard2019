@@ -2824,7 +2824,7 @@ h2.widget-title {
 
 img,
 video {
-	height: auto; /* Make sure images are scaled correctly. */
+	height: 100%; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
 	border-radius: 0;
 	width: 100%;

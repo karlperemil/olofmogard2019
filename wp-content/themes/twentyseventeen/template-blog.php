@@ -43,7 +43,7 @@ get_header();
 </div>
 
 <div id="blog-modal">
-    <div class="blog-modal-close">X</div>
+    <div class="blog-modal-close">&#10005;</div>
     <img class="blog-modal-image" src="">
     
 </div>

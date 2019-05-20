@@ -36,7 +36,7 @@ article.blog-image {
     height: 100vh;
     text-align: center;
     z-index: 9999999;
-    transition: opacity .25s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #blog-modal.is-visible {
@@ -49,7 +49,8 @@ article.blog-image {
     top: 2.5rem;
     right: 7rem;
     cursor: pointer;
-    font-size: 5rem;
+    font-size: 4rem;
+    -webkit-font-smoothing: antialiased;
     z-index: 99999;
 }
 

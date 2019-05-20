@@ -163,7 +163,7 @@ body .work-col1 h1 {
 
 .wp-video {
     width: 100% !important;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
 }
 
 .bottom-nav {

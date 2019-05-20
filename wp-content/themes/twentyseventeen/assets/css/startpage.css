@@ -371,6 +371,7 @@
 
 .page-template-page-startpage.webgl-loaded #menu {
     opacity: 1;
+    mix-blend-mode: difference;
 }
 .page-template-page-startpage.webgl-loaded #frontpage-footer {
     opacity: 1;

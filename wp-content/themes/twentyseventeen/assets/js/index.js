@@ -65,6 +65,13 @@ window.$ = jQuery;
         $(window).scroll(onScroll);
         onScroll();
 
+        if($('body').hasClass('page-template-template-blog') ){
+            $('html').css('background','black');
+        }
+        if($('body').hasClass('page-template-template-work') ){
+            $('html').css('background','black');
+        }
+
 
         $('.menu-about').hover(function(){
             $('.menu-about').removeClass('fade-gray');

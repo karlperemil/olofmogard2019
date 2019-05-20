@@ -3,10 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 68 68" style="enable-background:new 0 0 68 68;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2;}
-	.st1{fill:none;stroke:#0000FF;stroke-width:2;}
+	.st0{fill:none;stroke:#0000FF;stroke-width:2;}
 </style>
 <title>up-white</title>
-<circle class="st0" cx="34" cy="34" r="33"/>
-<path class="st1" d="M34,29l10,10L34,29L24,39L34,29z"/>
+<path class="st0" d="M34,29l10,10L34,29L24,39L34,29z"/>
 </svg>

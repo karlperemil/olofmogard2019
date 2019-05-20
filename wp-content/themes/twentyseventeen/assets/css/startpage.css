@@ -421,8 +421,12 @@
         position: fixed !important;
     }
 
-    .page-template-template-services #menu, .page-template-template-work #menu {
+    .page-template-template-services #menu {
         background-image: linear-gradient(rgba(0,0,255,1), rgba(0,0,255,1), rgba(0,0,255,0));
+    }
+
+    .page-template-template-blog #menu, .page-template-template-work #menu {
+        background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0));
     }
     
     .page-template-page-startpage #frontpage-footer {

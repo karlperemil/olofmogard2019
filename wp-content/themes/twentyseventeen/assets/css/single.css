@@ -275,7 +275,7 @@ body .work-col1 h1 {
     }
 
     .work-image {
-        padding-bottom: 70vh;
+        /* padding-bottom: 70vh; */
     }
 }
 
@@ -299,7 +299,7 @@ body .work-col1 h1 {
     }
 
     .work-image {
-        padding-bottom: 50vh;
+        /* padding-bottom: 50vh; */
     }
 
     .half-width-2-3 > *:nth-child(2n - 1) {

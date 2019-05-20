@@ -429,6 +429,7 @@ section.collab {
     position: relative;
     margin-top: 0;
     max-width: 80%;
+    /* height: 100vh; */
     /* height: 100%; */
 }
 .page-template-template-services .menu-plus-about.menu-plus {

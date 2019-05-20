@@ -55,7 +55,7 @@ body.page-template-template-blog, html.page-template-template-blog {
 
 .feed-text-wrapper {
     position: relative;
-    margin-top: 0;
+    /* margin-top: 0; */
     width: 100%;
 }
 

@@ -6,6 +6,14 @@
     justify-content: space-between;
 }
 
+img.blog-modal-image {
+    width: auto;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 article.blog-image {
     flex: 0 calc(33% - 2rem);
     /* width: 50%; */
@@ -13,7 +21,6 @@ article.blog-image {
     /* padding-right: 4rem; */
     margin-bottom: 4rem;
 }
-
 .page-template-template-blog .collab {
     flex: 1 100%;
 }
@@ -27,6 +34,7 @@ article.blog-image {
     opacity: 0;
     width: 100%;
     height: 100vh;
+    text-align: center;
     z-index: 9999999;
     transition: opacity .25s ease-in-out;
 }

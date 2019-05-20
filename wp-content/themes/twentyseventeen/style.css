@@ -2828,7 +2828,10 @@ video {
 	max-width: 100%; /* Adhere to container width. */
 	border-radius: 0;
 	width: 100%;
-	/* flex: 1; */
+	flex: 1;
+	/* background-position: center; */ /* Center the image */
+	/* background-repeat: no-repeat; */ /* Do not repeat the image */
+	/* background-size: cover; */
 }
 
 img.alignleft,

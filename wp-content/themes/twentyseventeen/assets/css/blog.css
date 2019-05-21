@@ -12,7 +12,6 @@ img.blog-modal-image {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    /* z-index: 0; */
 }
 
 article.blog-image {
@@ -87,17 +86,6 @@ body.page-template-template-blog, body.page-template-template-work {
 }
 
 @media (max-width:  768px) {
-
-    .blog-modal-close {
-        position: absolute;
-        top: 2rem;
-        right: 3.5rem;
-        cursor: pointer;
-        font-size: 3rem;
-        -webkit-font-smoothing: antialiased;
-        z-index: 99999;
-    }
-
     article.blog-image {
         flex: 0 calc(50% - 1.75rem);
     }

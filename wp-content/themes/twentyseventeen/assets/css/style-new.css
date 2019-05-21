@@ -154,6 +154,11 @@ a:hover {
     display: flex;
     margin-bottom: 0;
 }
+
+.page-template-template-work #menu {
+    padding-bottom: 0rem;
+}
+
 #menu a {
     display: block;
     color: white;
@@ -325,11 +330,15 @@ body,html {
 
 .post-tags {
     color: #999999;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     margin-left: 0;
     display: block;
     width: 100%;
     margin-bottom: 2.5rem;
+    font-size: 4.4rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 button {
@@ -382,8 +391,8 @@ article:nth-child(2n) .work-image {
     background-repeat: no-repeat;
     background-size: contain;
     /* transition: .3s ease-in-out; */
-    background-position: center center;
-    padding-bottom: 100vh;
+    background-position: left center;
+    padding-bottom: 90vh;
     /* width: 50rem !important; */
     cursor: pointer;
     flex: 50;

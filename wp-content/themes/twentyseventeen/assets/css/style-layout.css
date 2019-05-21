@@ -81,6 +81,9 @@
     color: white;
     font-size: 6rem;
     text-align: left;
+    line-height: 1.5;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
 }
 
 .page-template-template-work article a:hover {

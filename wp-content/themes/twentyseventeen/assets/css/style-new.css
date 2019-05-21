@@ -381,7 +381,7 @@ article {
     padding-bottom: 90vh;
     width: 50%;
     cursor: pointer;
-    /* flex: 100%; */
+    flex: 100%;
     /* height: 100vh; */
 }
 .work-image:hover {

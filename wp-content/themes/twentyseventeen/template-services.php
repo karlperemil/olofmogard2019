@@ -22,14 +22,14 @@ get_header();
             ?>
 
             <section class="about">
-                <p>Are you looking for a friendly designer driven by challenges <span class="challenge">&#3198</span><br>morale <span class="morale">&#9895</span> and pixel perfection 	
-                <span class="pixel-perfect">&#8865</span> ? Then you have come to the right place.
+                <p>If you are in need of a friendly designer driven by challenges <span class="challenge">&#3198</span><br>morale <span class="morale">&#9895</span> and pixel perfection 	
+                <span class="pixel-perfect">&#8865</span> then you have come to the right place.
                 <br>
                 <br>
                 My name is Olof. I’m a Swede based in Stockholm who love culture, arts & design. I believe that the recipe for a successful project is passion, trust and hard work.
                 <br>
                 <br>
-                <span style="text-decoration: underline;">Say hello</span> if you are looking for a collaboration.</p>
+                <span style="text-decoration: underline;">Say hello</span> if you would like to know more.</p>
 
             </section>
             <section class="services">

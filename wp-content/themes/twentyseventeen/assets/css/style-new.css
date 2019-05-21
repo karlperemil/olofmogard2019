@@ -383,14 +383,14 @@ article:nth-child(2n) .work-image {
     background-size: contain;
     /* transition: .3s ease-in-out; */
     background-position: center center;
-    padding-bottom: 60vh;
-    /* width: 50%; */
+    padding-bottom: 100vh;
+    /* width: 50rem !important; */
     cursor: pointer;
-    flex: 50%;
-    /* height: 100vh; */
+    flex: 50;
+    /* height: auto; */
 }
 .work-image:hover {
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 

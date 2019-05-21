@@ -79,6 +79,8 @@
 
 .page-template-template-work article a {
     color: white;
+    font-size: 6rem;
+    text-align: left;
 }
 
 .page-template-template-work article a:hover {
@@ -139,6 +141,7 @@
     /* flex: 70%; */
     /* width: auto; */
     max-width: 70%;
+    /* font-size: 6rem; */
 }
 
 .work-text-right {

@@ -24,19 +24,9 @@ get_header();
             <div class="flex-cont">
                 <div class="work-text-left">
                     <h2 class="hideme"><a href="<?php the_permalink() ?>"><?php the_title();?></a></h2>
-                    <p class="post-tags hideme"> <?php
-                        $post_tags = get_the_tags();
- 
-                        if ( $post_tags ) {
-                            foreach( $post_tags as $tag ) {
-                            echo '#' . $tag->name . ' '; 
-                            }
-                        }
-                        ?>
+                    <p class="post-tags hideme">
+                        <?php echo get_post_meta($post->ID, 'headline2', true); ?>
                     </p>
-                </div>
-                <div class="work-text-right hideme">
-                    <a href="<?php the_permalink() ?>"><button>View Case</button></a>
                 </div>
             </div>
             </article>

@@ -370,7 +370,12 @@ article {
     margin-bottom: 9rem;
     cursor: pointer;
     /* min-height: 80vh; */
-    /* display: flex; */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article:nth-child(2n) .work-image {
+    order: 2;
 }
 
 .work-image {
@@ -378,10 +383,10 @@ article {
     background-size: contain;
     /* transition: .3s ease-in-out; */
     background-position: center center;
-    padding-bottom: 90vh;
-    width: 50%;
+    padding-bottom: 60vh;
+    /* width: 50%; */
     cursor: pointer;
-    flex: 100%;
+    flex: 50%;
     /* height: 100vh; */
 }
 .work-image:hover {
@@ -597,6 +602,18 @@ p {
 
 .nowrap {
     white-space:nowrap;
+}
+
+@media (max-width: 1080px){
+    article .work-image {
+        flex: 100%;
+    }
+    article:nth-child(2n) .work-image {
+        order: initial;
+    }
+    article .flex-cont {
+        flex: 100%;
+    }
 }
 
 @media screen and (max-width: 600px){

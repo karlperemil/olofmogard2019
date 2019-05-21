@@ -81,7 +81,8 @@ body.page-template-template-blog, body.page-template-template-work {
     padding-top: 0;
 }
 
-.page-template-template-blog #return-button:hover, .page-template-template-blog #return-button  {
+.page-template-template-blog #return-button:hover, .page-template-template-blog #return-button, .page-template-template-work #return-button:hover, .page-template-template-work #return-button  {
+
     background-image: url('/wp-content/themes/twentyseventeen/assets/images/up-white-black.svg');
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }

@@ -335,7 +335,7 @@ body,html {
     display: block;
     width: 100%;
     margin-bottom: 2.5rem;
-    font-size: 4.4rem;
+    font-size: 3.15rem;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     font-weight: 400;
@@ -389,9 +389,9 @@ article:nth-child(2n) .work-image {
 
 .work-image {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     /* transition: .3s ease-in-out; */
-    background-position: left center;
+    background-position: top center;
     padding-bottom: 90vh;
     /* width: 50rem !important; */
     cursor: pointer;

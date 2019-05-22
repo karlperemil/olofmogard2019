@@ -23,14 +23,12 @@ get_header();
     if ( have_posts() ) :
         while ( have_posts() ) : the_post();
             if( get_post_meta($post->ID, 'video', true) == true ): ?>
-                <article class="blog-image" data-id="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>">
+                <article class="blog-image blog-video" data-id="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>">
                     <?php the_content(); ?>
                 </article>
             <?php else : ?>
-                <article class="blog-image" data-id="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>">
-                <?php //the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full', 'title' => 'Feature image']); ?>
-                <div style="background-image: url('<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>?cacheBuster=1')" class="work-image hideme-half">
-                </div>
+                <article class="blog-image" style="background-image: url('<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>')" data-id="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>">
+                    <!-- <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full');?>"> -->
                 </article>
             <?php endif; ?>
         <?php
@@ -45,5 +43,4 @@ get_header();
 <div id="blog-modal">
     <div class="blog-modal-close">&#10005;</div>
     <img class="blog-modal-image" src="">
-    
 </div>

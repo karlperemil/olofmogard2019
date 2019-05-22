@@ -413,8 +413,8 @@
 
     .page-template-template-services #page, .page-template-template-blog #page {
         /* top: 13rem; */
-        top: 13rem;
-        position: relative;
+        margin-top: 13rem;
+        /* position: relative; */
         /* padding-top: 13rem; */
     }
     body,html {

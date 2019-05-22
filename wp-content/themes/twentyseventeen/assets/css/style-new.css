@@ -378,10 +378,8 @@ article h2:before {
 article {
     margin-bottom: 9rem;
     cursor: pointer;
-    /* min-height: 80vh; */
     display: flex;
     flex-flow: row wrap;
-    /* max-width: 100%; */
 }
 
 article:nth-child(2n) .work-image {
@@ -391,15 +389,10 @@ article:nth-child(2n) .work-image {
 .work-image {
     background-repeat: no-repeat;
     background-size: contain;
-    /* transition: .3s ease-in-out; */
     background-position: top left;
-    /* padding-bottom: 90vh; */
-    /* width: 50rem !important; */
     cursor: pointer;
     flex: 5;
-    height: 100vh;
-    /* width: 50rem; */
-    /* max-width: 50vw; */
+    position: relative;
 }
 .work-image:hover {
     /*background-size: cover;*/

@@ -89,7 +89,7 @@ body.no-scroll {
 }
 
 body.page-template-template-blog, body.page-template-template-work {
-    background: black;
+    background-color: black;
 }
 
 .feed-text-wrapper {

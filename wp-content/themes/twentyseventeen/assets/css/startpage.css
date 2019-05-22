@@ -1,3 +1,12 @@
+.page-template-template-blog, .page-template-template-services, .page-template-template-work {
+    opacity: 0;
+    animation-name: linkfade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
 .big-title {
     font-size: 7.25rem;
     -webkit-font-smoothing: antialiased;
@@ -413,7 +422,7 @@
 
     .page-template-template-services #page, .page-template-template-blog #page {
         /* top: 13rem; */
-        margin-top: 13rem;
+        /* margin-top: 13rem; */
         /* position: relative; */
         /* padding-top: 13rem; */
     }

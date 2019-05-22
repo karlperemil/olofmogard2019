@@ -406,6 +406,11 @@
 
 /* ipad and below */
 @media (max-width:  768px) {
+
+    .page-template-template-services #page {
+        top: 13rem !important;
+    }
+
     .page-template-template-services #page, .page-template-template-blog #page {
         /* top: 13rem; */
         top: 13rem;

@@ -43,9 +43,9 @@ body .work-col1 h1 {
     font-size: 6.5rem;
 }
 
-.work-col1 {width: 50%;/* margin-bottom: 7em; */padding-right: 2rem;}
+.work-col1 {width: 100%;/* margin-bottom: 7em; */padding-right: 2rem;}
 
-.work-col2 {width: 50%;margin-top: 1rem;padding-right: 6rem;}
+.work-col2 {width: 100%;margin-top: 1rem;padding-right: 6rem;}
 
 .work-row {
     margin-bottom: 12rem;
@@ -224,11 +224,25 @@ body .work-col1 h1 {
     color: gray;
 }
 
+.show-mobile {
+    display: none;
+}
+.hide-mobile {
+    display: inherit;
+}
+
+
 
 
 
 /* ipad and less */
 @media (max-width: 768px){
+    .hide-mobile {
+        display: none;
+    }
+    .show-mobile {
+        display: inherit;
+    }
     .main-title-wrap {
         position: relative;
         transform: none;

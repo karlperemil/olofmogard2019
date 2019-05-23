@@ -386,13 +386,24 @@ article:nth-child(2n) .work-image {
     order: 2;
 }
 
+article:nth-child(2n) .work-image {
+    background-position: center center;
+    /* padding-right: 30%; */
+    margin-right: 10%;
+}
+
+article:nth-child(1) .work-text-left {
+    padding-bottom: 20%;
+} 
+
 .work-image {
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top left;
+    background-position: left center;
     cursor: pointer;
     flex: 5;
     position: relative;
+    height: 95vh;
 }
 .work-image:hover {
     /*background-size: cover;*/

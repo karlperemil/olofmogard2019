@@ -78,17 +78,6 @@ get_header();
 				<div class="bottom-nav-name">
 					<a href="<?php echo get_post_permalink($prev_post) ?>"><?php echo $prev_post->post_title?></a>
 				</div>
-				<div class="post-tags">
-				<?php
-					if (!empty( $prev_post )):
-						$prev_post_tags = get_the_tags($prev_post ->ID); 
-						if ( $prev_post_tags ) {
-							foreach( $prev_post_tags as $tag ) {
-								echo '#' . $tag->name . ' '; 
-							}
-						}
-					endif; ?>
-				</div>
 			</div>
 		</div>
 	</div>

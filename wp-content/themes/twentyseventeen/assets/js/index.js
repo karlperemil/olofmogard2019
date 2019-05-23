@@ -71,6 +71,12 @@ window.$ = jQuery;
         if($('body').hasClass('page-template-template-work') ){
             $('html').css('background','black');
         }
+        if( $('body').hasClass('white') ){
+            $('html').css('background','white');
+        };
+        if( $('body').hasClass('black') ){
+            $('html').css('background','black');
+        };
 
 
         $('.menu-about').hover(function(){

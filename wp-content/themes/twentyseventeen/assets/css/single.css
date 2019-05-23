@@ -183,6 +183,7 @@ body.single .flexcont{
 
 .post-body .wp-video-shortcode {
     width:100%;
+    height: 110vh;
 }
 
 .wp-video {
@@ -203,13 +204,18 @@ body.single .flexcont{
 }
 
 .bottom-nav-direction {
-    font-size: 2rem;
+    font-size: 3.15rem;
     margin-bottom: 1.3rem;
     pointer-events: none;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .bottom-nav-name {
-    font-size: 3.5rem;
+    font-size: 6rem;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 500;
     margin-bottom: 0.8rem;
     pointer-events: none;
 }

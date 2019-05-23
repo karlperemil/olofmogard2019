@@ -126,7 +126,7 @@ a {
 }
 
 .black {
-    color: black !important;
+    background-color: black !important;
 }
 
 .white {
@@ -395,7 +395,7 @@ article:nth-child(2n) .work-image {
 
 article:nth-child(4) .work-image {
     /* height: 95vh; */
-    margin-right: 0;
+    margin-right: 10%;
     padding-right: 40%;
 }
 

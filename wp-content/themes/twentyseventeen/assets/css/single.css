@@ -40,7 +40,7 @@ body.single .flexcont{
 }
 
 .work-col1 h1 {
-    font-size: 7.25rem;
+    font-size: 7.25rem !important;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     font-weight: 500;

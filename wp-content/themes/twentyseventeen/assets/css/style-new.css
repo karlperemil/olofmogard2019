@@ -393,6 +393,14 @@ article:nth-child(2n) .work-image {
     margin-right: 10%;
 }
 
+article:nth-child(4) .work-image {
+    /* height: 95vh; */
+    margin-right: 0;
+    padding-right: 40%;
+}
+
+
+
 article:nth-child(1) .work-text-left {
     padding-bottom: 20%;
 }

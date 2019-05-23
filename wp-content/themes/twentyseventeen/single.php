@@ -5,15 +5,14 @@ get_header();
 <div id="return-button"></div>
 <div class="menu-padder">
     <?php
-	/* Start the Loop */
 	while ( have_posts() ) : the_post();
 		?>
 		<div class="flexcont">
 			<div class="work-row">
 				<div class="work-col1">
-					<h1><? the_title() ?></h1>
+					<h1><?php the_title() ?></h1>
 					<p class="post-tags">
-						<?
+						<?php
 						$post_tags = get_the_tags(); 
 						if ( $post_tags ) {
 							foreach( $post_tags as $tag ) {
@@ -24,11 +23,11 @@ get_header();
 					</p>
 				</div>
 				<div class="work-col2">
-					<p><? echo get_post_meta($post->ID, 'preamble', true); ?></p>
+					<p><?php echo get_post_meta($post->ID, 'preamble', true); ?></p>
 				</div>
 			</div>
 			<div class="post-body">
-				<? the_content() ?>
+				<?php the_content() ?>
 			</div>
 			<div class="bottom-nav">
 				
@@ -36,7 +35,7 @@ get_header();
 				$prev_post = get_previous_post(true);
 				if (empty( $prev_post )){
 					$args = array(
-						'posts_per_page' => 1, // we need only the latest post, so get that post only
+						'posts_per_page' => 1,
 						'category_name' => 'work',
 						'orderby' => 'post_date',
 						'order' => 'DESC'
@@ -81,7 +80,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-	<?
+	<?php
 	endwhile; // End of the loop.
 	?>
 

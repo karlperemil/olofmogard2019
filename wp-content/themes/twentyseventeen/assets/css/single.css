@@ -39,11 +39,14 @@ body.single .flexcont{
     align-content: flex-start;
 }
 
-body .work-col1 h1 {
-    font-size: 6.5rem;
+.work-col1 h1 {
+    font-size: 7.25rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 500;
 }
 
-.work-col1 {width: 100%;/* margin-bottom: 7em; */padding-right: 2rem;}
+.work-col1 {width: 100%;/* margin-bottom: 7em; *//* padding-right: 2rem; */}
 
 .work-col2 {width: 100%;margin-top: 1rem;padding-right: 6rem;}
 

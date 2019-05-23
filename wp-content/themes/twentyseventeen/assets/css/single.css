@@ -5,6 +5,7 @@ body .site h1 {
     display: block;
     width: 100%;
     margin: auto;
+    margin-bottom: 3rem;
     text-align: left;
 }
 
@@ -48,7 +49,7 @@ body.single .flexcont{
 
 .work-col1 {width: 100%;/* margin-bottom: 7em; *//* padding-right: 2rem; */}
 
-.work-col2 {width: 100%;margin-top: 1rem;padding-right: 6rem;}
+.work-col2 {width: 80%;margin-top: 1rem;padding-right: 6rem;}
 
 .work-row {
     margin-bottom: 12rem;
@@ -58,8 +59,12 @@ body.single .flexcont{
 }
 
 .work-col2 p {
-    font-size: 2.5rem;
-    line-height: 1.7;
+    /* font-size: 2.5rem; */
+    /* line-height: 1.7; */
+    font-size: 4.4rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .post-body {

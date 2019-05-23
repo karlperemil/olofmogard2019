@@ -467,6 +467,7 @@ function twentyseventeen_colors_css_wrap() {
 <?php }
 add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
 
+
 /**
  * Enqueue scripts and styles.
  */

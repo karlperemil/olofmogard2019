@@ -14,6 +14,22 @@ body.a {
     outline: none;
 }
 
+body.single.white {
+    background: white;
+}
+
+body.single.white p {
+    color: black;
+}
+body.single.white h1 {
+    color: black;
+}
+body.single.white #menu a {
+    color: black;
+}
+
+
+
 body.single .flexcont{
     display: flex;
     flex-direction: row;
@@ -197,6 +213,19 @@ body .work-col1 h1 {
 .bottom-nav-name a:hover {
     color: #cacaca;
 }
+
+.work-col-extra {
+    width: 50%;
+    padding-right: 5rem;
+    margin-top: 5rem;
+}
+
+.work-col-extra .gray {
+    color: gray;
+}
+
+
+
 
 /* ipad and less */
 @media (max-width: 768px){

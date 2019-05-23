@@ -12,6 +12,8 @@
  * @version 1.0
  */
 
+global $single_background;
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
@@ -19,11 +21,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
 <?php wp_head(); ?>
+
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class($single_background); ?>>
 <?php get_template_part( 'partials/menu' ); ?>
 
 <div id="page" class="site">

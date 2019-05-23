@@ -81,8 +81,10 @@
     color: white;
     font-size: 6rem;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: 500;
+    /* margin-bottom: 0rem; */
+    /* padding-bottom: 0rem; */
     -webkit-font-smoothing: antialiased;
 }
 

@@ -2826,7 +2826,7 @@ img,
 video {
 	 /* Make sure images are scaled correctly. */
 	 max-width: 100%; /* Adhere to container width. */
-	 border-radius: 0;
+	 /* border-radius: 0; */
 	 width: 100%;
 	 
 	 /* Center the image */

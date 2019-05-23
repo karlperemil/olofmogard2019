@@ -16,18 +16,19 @@ img.blog-modal-image {
 }
 
 article.blog-image {
+    justify-content: start;
+    align-items: flex-start;
     height: 0;
     margin-bottom: 6.5rem;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    flex-grow: initial;
     flex: 0 0 calc(33% - 3.25rem);
     padding-bottom: calc(41.6% - 3.25rem);
 }
 
 article.blog-image.blog-video {
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
 }
 
 .page-template-template-blog .collab {
@@ -35,9 +36,10 @@ article.blog-image.blog-video {
 }
 
 .blog-image video {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
 }
 
 .blog-image img {
@@ -45,7 +47,7 @@ article.blog-image.blog-video {
 }
 
 .blog-image .wp-video {
-    display: table;
+    display: block;
 }
 
 #blog-modal {

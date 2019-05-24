@@ -437,7 +437,7 @@
 @media (max-width:  768px) {
 
     .flex-cont {
-        padding: 3rem 0 0 0;
+        padding: 2rem 0 0 0;
     }
 
     .post-tags {
@@ -455,11 +455,15 @@
     }
 
     article {
-        margin-bottom: 3rem;
+        margin-bottom: 7rem;
     }
 
     article:nth-child(1) .work-text-left {
         padding-bottom: 0;
+    }
+
+    article:nth-child(2) .work-image {
+        background-image: url(http://localhost:8888/wp-content/uploads/2019/05/exs_mobile_case-thumb_v01@3x.png) !important;
     }
 
     article:nth-child(2n+1) .work-text-left, article .work-text-left {

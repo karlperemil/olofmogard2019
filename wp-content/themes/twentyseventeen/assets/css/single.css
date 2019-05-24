@@ -146,6 +146,8 @@ body.single .flexcont{
 
 .full-width-4-3 {
     width: 100%;
+    text-align: center;
+    background-image: contain;
 }
 
 .half-width-2-3 {

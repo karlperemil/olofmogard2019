@@ -163,3 +163,15 @@
 .work-text-right button {
     margin-top: 2.1rem;
 }
+
+
+/* ipad and below */
+@media (max-width:  768px) {
+
+    article .work-image {
+        background-position: center center;
+        /* padding-right: 30%; */
+        /* margin-right: 10%; */
+        width: 80%;
+    }
+}

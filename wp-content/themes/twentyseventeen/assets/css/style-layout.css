@@ -172,6 +172,8 @@
         background-position: center center;
         /* padding-right: 30%; */
         /* margin-right: 10%; */
-        width: 80%;
+        max-width: 80%;
+        margin: auto;
+        height: 50vh;
     }
 }

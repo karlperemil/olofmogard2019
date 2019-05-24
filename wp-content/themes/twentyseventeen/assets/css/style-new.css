@@ -329,7 +329,8 @@ body,html {
 }
 
 .post-tags {
-    color: #999999;
+    color: white;
+    /* opacity: 0.6; */
     /* font-size: 2.5rem; */
     margin-left: 0;
     display: block;

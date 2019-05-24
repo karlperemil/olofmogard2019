@@ -436,11 +436,19 @@
 /* ipad and below */
 @media (max-width:  768px) {
 
+    article:nth-child(2n+1) .work-text-left {
+        padding-left: 0;
+    }
+
+    .page-template-template-work article a {
+        font-size: 3.7rem;
+    }
+
     .page-template-template-services #page {
         top: 13rem !important;
     }
 
-    .page-template-template-blog #page {
+    .page-template-template-blog #page, .page-template-template-work #page {
         /*top: 13rem;*/
         margin-top: 13rem;
         /* position: relative; */

@@ -146,6 +146,7 @@ body.single .flexcont{
 
 .full-width-4-3 {
     width: 100%;
+    margin-bottom: 12rem;
     text-align: center;
     background-image: contain;
 }
@@ -229,6 +230,7 @@ body.single .flexcont{
     font-weight: 500;
     margin-bottom: 0.8rem;
     pointer-events: none;
+    -webkit-font-smoothing: antialiased;
 }
 
 .bottom-nav-name a {

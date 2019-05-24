@@ -436,7 +436,33 @@
 /* ipad and below */
 @media (max-width:  768px) {
 
-    article:nth-child(2n+1) .work-text-left {
+    .flex-cont {
+        padding: 3rem 0 0 0;
+    }
+
+    .post-tags {
+        margin-top: 0.5rem;
+        font-size: 2.5rem;
+        font-weight: 300;
+        font-family: 'helvetica', sans-serif;
+        margin-bottom: 1em;
+        -webkit-font-smoothing: auto;
+        opacity: 0.6;
+    }
+
+    .work-text-left {
+        width: 100%;
+    }
+
+    article {
+        margin-bottom: 3rem;
+    }
+
+    article:nth-child(1) .work-text-left {
+        padding-bottom: 0;
+    }
+
+    article:nth-child(2n+1) .work-text-left, article .work-text-left {
         padding-left: 0;
     }
 

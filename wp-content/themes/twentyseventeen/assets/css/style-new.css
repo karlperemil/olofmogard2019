@@ -330,7 +330,7 @@ body,html {
 
 .post-tags {
     color: white;
-    /* opacity: 0.6; */
+    opacity: 0.6 !important;
     /* font-size: 2.5rem; */
     margin-left: 0;
     display: block;

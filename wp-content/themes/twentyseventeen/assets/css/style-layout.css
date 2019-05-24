@@ -3,7 +3,7 @@
     bottom: 0;
     right: 0;
     padding: 1em;
-    background-image: url('/wp-content/themes/twentyseventeen/assets/images/up-white-blue.svg');
+    background-image: url('/wp-content/themes/twentyseventeen/assets/images/up-white-black.svg');
     background-color: white;
     border-radius: 100%;
     width: 7.5rem;
@@ -11,11 +11,11 @@
     cursor: pointer;
     z-index: 100;
     margin: 4.5rem 4.5rem;
-    box-shadow: 0 3px 20px rgba(0, 0, 255, 0.2);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 
 #return-button:hover {
-    background-image: url('/wp-content/themes/twentyseventeen/assets/images/up-white-blue.svg');
+    background-image: url('/wp-content/themes/twentyseventeen/assets/images/up-white-black.svg');
 }
 
 

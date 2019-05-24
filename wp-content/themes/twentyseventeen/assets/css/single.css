@@ -67,6 +67,10 @@ body.single .flexcont{
     font-weight: 400;
 }
 
+.work-col-extra p {
+    -webkit-font-smoothing: antialiased;
+}
+
 .post-body {
     line-height: 3rem;
     display: flex;
@@ -147,7 +151,7 @@ body.single .flexcont{
 .half-width-2-3 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 7.5rem;
+    margin-bottom: 4.5rem;
     flex: 100%;
     position: relative;
     height: max-content;
@@ -188,7 +192,7 @@ body.single .flexcont{
 
 .wp-video {
     width: 100% !important;
-    /* margin-bottom: 6rem; */
+    margin-bottom: 12rem;
 }
 
 .bottom-nav {
@@ -231,15 +235,17 @@ body.single .flexcont{
 .work-col-extra {
     width: 50%;
     padding-right: 5rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .work-col-extra .gray {
-    color: gray;
-    font-weight: 300;
+    color: white;
+    opacity: 0.6;
+    font-weight: 400;
     font-family: 'helvetica', sans-serif;
-    margin-bottom: 1em;
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 3.15rem;
+    /* -webkit-font-smoothing: unset; */
 }
 
 .show-mobile {

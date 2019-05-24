@@ -236,6 +236,10 @@ body.single .flexcont{
 
 .work-col-extra .gray {
     color: gray;
+    font-weight: 300;
+    font-family: 'helvetica', sans-serif;
+    margin-bottom: 1em;
+    font-size: 3rem;
 }
 
 .show-mobile {

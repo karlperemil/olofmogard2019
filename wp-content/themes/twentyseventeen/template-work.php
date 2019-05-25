@@ -23,7 +23,7 @@ get_header();
             </div>
             <div class="flex-cont">
                 <div class="work-text-left">
-                    <h2 class="hideme"><a href="<?php the_permalink() ?>"><?php the_title();?></a></h2>
+                    <h2><a href="<?php the_permalink() ?>"><?php the_title();?></a></h2>
                     <p class="post-tags hideme">
                         <?php echo get_post_meta($post->ID, 'headline2', true); ?>
                     </p>

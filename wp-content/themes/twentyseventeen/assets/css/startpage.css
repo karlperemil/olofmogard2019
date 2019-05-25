@@ -522,7 +522,7 @@
         max-width: 100%;
     }
     section.about p, section.services p, section.clients p, section.experience p, .experience-place {
-        font-size: 3.15rem;
+        font-size: 3rem;
         /* vertical-align: top; */
     }
     .section-title {

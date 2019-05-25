@@ -275,6 +275,10 @@ body.single .flexcont{
         margin-top: 13rem;
     }
 
+    body.single.white #menu {
+        background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+
     .work-col1 h1 {
         font-size: 5rem !important;
     }
@@ -284,7 +288,7 @@ body.single .flexcont{
     }
 
     .work-col2 p {
-        font-size: 3.15rem;
+        font-size: 3rem;
         margin-bottom: 4rem;
     }
 
@@ -300,11 +304,19 @@ body.single .flexcont{
     }
 
     .work-col-extra p {
-        font-size: 3.15rem;
+        font-size: 3rem;
     }
 
     .work-col-extra .gray {
         font-size: 2.5rem;
+    }
+
+    .work-row {
+        margin-bottom: 8rem;
+    }
+
+    .post-body .wp-video-shortcode {
+        height: auto;
     }
 
     .hide-mobile {

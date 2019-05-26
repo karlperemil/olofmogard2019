@@ -11,7 +11,7 @@
     cursor: pointer;
     z-index: 100;
     margin: 4.5rem 4.5rem;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 #return-button:hover {

@@ -20,7 +20,7 @@ get_header();
             </div>
             <div class="start-links-right">
                 <a href="..." class="good"><span class="stike-under">Software companies</span></a>
-                <a href="..." class="good"><span class="stike-under">Myself</span></a>
+                <a href="http://localhost:8888/blog/" class="good"><span class="stike-under">Myself</span></a>
                 <div class="evil"><span class="strike">Conservatives</span></div>
                 <div class="evil"><span class="strike">"See it as an experience"</span></div>
                 <a href="..." class="good"><span class="stike-under">Posh plazas</span></a>

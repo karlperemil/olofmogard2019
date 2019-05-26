@@ -9,6 +9,15 @@ body .site h1 {
     text-align: left;
 }
 
+body.single {
+    opacity: 0;
+    animation-name: linkfade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
 
 
 body.a {
@@ -24,11 +33,25 @@ body.single.white p {
 }
 body.single.white h1 {
     color: black;
+    font-weight: 500;
 }
 body.single.white #menu a {
     color: black;
 }
-
+body.single.white  .text-block-body {
+    color: black;
+}
+body.single.white .om-logo-white {
+    background: url('/wp-content/themes/twentyseventeen/assets/images/om-logo-black.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body.single.white .work-col-extra .gray {
+    opacity: 0.3;
+}
+body.single.white .prev-post a{
+    color: black;
+}
 
 
 body.single .flexcont{
@@ -207,7 +230,7 @@ body.single .flexcont{
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    padding-bottom: 9rem;
+    padding-bottom: 12rem;
 }
 
 .next-post,.prev-post {
@@ -249,7 +272,7 @@ body.single .flexcont{
 
 .work-col-extra .gray {
     color: white;
-    opacity: 0.5;
+    opacity: 0.6;
     font-weight: 400;
     font-family: 'helvetica', sans-serif;
     margin-bottom: 1rem;

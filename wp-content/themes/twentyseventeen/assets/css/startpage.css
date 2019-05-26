@@ -448,6 +448,7 @@
         margin-bottom: 1em;
         -webkit-font-smoothing: auto;
         opacity: 0.6;
+        width: 80%;
     }
 
     .work-text-left {

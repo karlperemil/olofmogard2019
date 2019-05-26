@@ -349,6 +349,8 @@ body.single .flexcont{
 
     .text-block-body {
         margin-right: 0;
+        font-size: 3rem;
+        margin-bottom: 8rem;
     }
 
     .main-title {
@@ -409,6 +411,13 @@ body.single .flexcont{
 
     .work-image {
         /* padding-bottom: 70vh; */
+    }
+    .bottom-nav-name {
+        font-size: 3.7rem;
+    }
+    .bottom-nav-direction {
+        font-size: 3rem;
+        -webkit-font-smoothing: antialiased;
     }
 }
 

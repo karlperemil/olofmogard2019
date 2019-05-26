@@ -312,7 +312,7 @@ body.single .flexcont{
 
     .work-col2 p {
         font-size: 3rem;
-        margin-bottom: 4rem;
+        /* margin-bottom: 4rem; */
     }
 
     .work-col2 {
@@ -324,6 +324,7 @@ body.single .flexcont{
         padding-right: 0;
         margin-top: 0;
         width: 100%;
+        margin-top: 4rem;
     }
 
     .work-col-extra p {

@@ -14,7 +14,7 @@ get_header();
                 <div class="start-links-left">
                 <div class="evil"><span class="strike">Evil corporations</span></div>
                 <div class="evil"><span class="strike">Dubious motives</span></div>
-                <a href="..." class="good"><span class="stike-under">Schools</span></a>
+                <a href="http://localhost:8888/2018/05/05/uddevalla-gymnasieskola/" class="good"><span class="stike-under">Schools</span></a>
                 <a href="http://localhost:8888/2019/05/21/blysjon-2018/" class="good"><span class="stike-under">Festivals</span></a>
                 <div class="evil"><span class="strike">Influencer beefs</span></div>
             </div>

@@ -372,6 +372,7 @@ body.single .flexcont{
 
     body .work-col1 h1 {
         font-size: 9.5vw;
+        line-height: 1.2;
     }
 
     .text-block-body {

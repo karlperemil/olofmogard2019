@@ -52,6 +52,9 @@ body.single.white .work-col-extra .gray {
 body.single.white .prev-post a{
     color: black;
 }
+body.single.white .bottom-nav-name {
+    font-weight: 600;
+}
 
 
 body.single .flexcont{
@@ -375,6 +378,7 @@ body.single .flexcont{
         margin-right: 0;
         font-size: 3rem;
         margin-bottom: 8rem;
+        padding-right: 0;
     }
 
     .main-title {

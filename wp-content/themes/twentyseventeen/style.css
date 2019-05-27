@@ -2831,6 +2831,7 @@ video {
 	 
 	 /* Center the image */
 	  /* Do not repeat the image */
+	 height: auto;
 	 /* background-size: auto; */
 }
 

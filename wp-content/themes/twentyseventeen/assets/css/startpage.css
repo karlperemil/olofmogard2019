@@ -434,12 +434,15 @@ a.good:hover {
     .browser-image img {
         max-width: 100%;
     }
+    .about-br {
+        display: none;
+    }
 }
 
 /* ipad and below */
 @media (max-width:  768px) {
 
-    .about p br {
+    .about-br {
         display: none;
     }
 

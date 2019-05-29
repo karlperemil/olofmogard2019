@@ -22,7 +22,7 @@ get_header();
             ?>
 
             <section class="about">
-                <p>Are you looking for a friendly designer driven by challenges <span class="challenge">&#3198</span><br> morale <span class="morale">&#9895</span> and pixel perfection 	
+                <p>Are you looking for a friendly designer driven by challenges <span class="challenge">&#3198</span><span class="about-br"><br></span> morale <span class="morale">&#9895</span> and pixel perfection 	
                 <span class="pixel-perfect">&#8865</span>? Then you have come to the right place.
                 <br>
                 <br>

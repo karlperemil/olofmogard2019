@@ -381,7 +381,7 @@
 
 .page-template-page-startpage.webgl-loaded #menu {
     opacity: 1;
-    /* mix-blend-mode: difference; */
+    mix-blend-mode: difference;
 }
 .page-template-page-startpage.webgl-loaded #frontpage-footer {
     opacity: 1;
@@ -438,6 +438,12 @@
 
     .flex-cont {
         padding: 2rem 0 0 0;
+    }
+
+    #dvd {
+        opacity: 0;
+        width: 15rem;
+        height: 7.5rem;
     }
 
     .post-tags {

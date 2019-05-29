@@ -141,40 +141,40 @@ window.$ = jQuery;
         
         window.dvdwidth = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 30;
         window.dvdheight = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 15;
-        window.xpos = Math.random() * $(window).width() - dvdwidth;
-        window.ypos = Math.random() * $(window).height() - dvdheight;
+        window.xpos = 50;
+        window.ypos = 50;
         window.xspeed = 2;
         window.yspeed = 1;
+        if($(window).width() < 768){
+            window.dvdwidth = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 15;
+            window.dvdheight = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 7.5;
+            window.xspeed = 1;
+            window.yspeed = 1;
+        }
         requestAnimationFrame(animate);
     });
 
 }(jQuery));
 
 function animate(){
-    if($(window).width() < 768){
-        window.dvdwidth = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 15;
-        window.dvdheight = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 7.5;
-        window.xspeed = 1;
-        window.yspeed = 1;
-    }
-    window.xpos += window.xspeed;
-    window.ypos += window.yspeed;
     if(window.xpos >= jQuery(window).width() - window.dvdwidth){
         window.xspeed *= -1;
-        xpos = jQuery(window).width() - window.dvdwidth;
+        window.xpos = jQuery(window).width() - window.dvdwidth;
     }
     else if (window.xpos <= 0){
         window.xspeed *= -1;
-        xpos = 0;
+        window.xpos = 0;
     }
     else if (window.ypos >= jQuery(window).height() - window.dvdheight){
         window.yspeed *= -1;
-        ypos = jQuery(window).height() - window.dvdheight;
+        window.ypos = Math.round(jQuery(window).height() - window.dvdheight);
     }
     else if (ypos <= 0) {
         window.yspeed *= -1;
-        ypos = 0;
+        window.ypos = 0;
     }
+    window.xpos += window.xspeed;
+    window.ypos += window.yspeed;
     jQuery('#dvd').css('left',window.xpos + 'px');
     jQuery('#dvd').css('top',window.ypos + 'px');
     requestAnimationFrame(animate);

@@ -403,7 +403,6 @@ a.good:hover {
 
 
 
-
 @media (max-width:  1440px) {
     body,html {
         font-size: 8px;
@@ -439,6 +438,14 @@ a.good:hover {
 
 /* ipad and below */
 @media (max-width:  768px) {
+
+    .about p br {
+        display: none;
+    }
+
+    .about .space {
+        display: none;
+    }
 
     .flex-cont {
         padding: 2rem 0 0 0;

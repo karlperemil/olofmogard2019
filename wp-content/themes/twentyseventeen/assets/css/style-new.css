@@ -135,6 +135,7 @@ a {
 
 a:hover {
     color: white;
+    /* opacity: 0.6 !important; */
 }
 
 .work-styles {
@@ -187,8 +188,6 @@ a:hover {
     /* background: red; */
     text-align: left;
     flex: 10 0 0;
-    /* transition: all .3s ease-in-out; */
-    /* mix-blend-mode: difference; */
 }
 
 .menu-text {

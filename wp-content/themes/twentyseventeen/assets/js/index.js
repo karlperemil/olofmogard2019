@@ -154,6 +154,8 @@ function animate(){
     if($(window).width() < 768){
         window.dvdwidth = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 15;
         window.dvdheight = $('body').css('font-size').slice(0,$('body').css('font-size').length-2) * 7.5;
+        window.xspeed = 1;
+        window.yspeed = .5;
     }
     window.xpos += window.xspeed;
     window.ypos += window.yspeed;

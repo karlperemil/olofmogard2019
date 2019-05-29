@@ -70,6 +70,10 @@
     -webkit-font-smoothing: antialiased;
 }
 
+a.good:hover {
+    color: #9999FF;
+}
+
 .start-links-right {
     font-size: 3.6rem;
     font-weight: 400;

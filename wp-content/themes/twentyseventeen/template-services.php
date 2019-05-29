@@ -29,7 +29,7 @@ get_header();
                 My name is Olof. I’m a Swede based in Stockholm who love culture, arts & design. I believe that the recipe for a successful project is passion, trust and hard work.
                 <br>
                 <br>
-                <span style="text-decoration: underline;">Say hello</span> if you want to know more.</p>
+                <a href="mailto:hello@olofmogard.com">Say hello</a> if you want to know more.</p>
 
             </section>
             <section class="services">

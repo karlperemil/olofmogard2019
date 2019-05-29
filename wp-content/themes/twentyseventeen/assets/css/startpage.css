@@ -474,7 +474,7 @@ a.good:hover {
     }
 
     article:nth-child(2) .work-image {
-        background-image: url(http://localhost:8888/wp-content/uploads/2019/05/exs_mobile_case-thumb_v01@3x.png) !important;
+        background-image: url(https://olofmogard.com/wp-content/uploads/2019/05/exs_mobile_case-thumb_v01@3x.png) !important;
     }
 
     article:nth-child(2n+1) .work-text-left, article .work-text-left {

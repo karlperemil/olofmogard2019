@@ -288,6 +288,7 @@ body.single .flexcont{
 }
 .hide-mobile {
     display: inherit;
+    flex-grow: 1;
 }
 
 

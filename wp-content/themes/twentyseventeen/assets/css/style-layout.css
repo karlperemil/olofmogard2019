@@ -98,7 +98,7 @@
 }
 
 .prev-post:hover a {
-    color: #999999
+    color: #999997 !important;
 }
 
 .break-mobile {

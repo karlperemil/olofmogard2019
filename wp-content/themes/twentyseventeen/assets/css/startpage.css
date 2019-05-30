@@ -442,6 +442,10 @@ a.good:hover {
 /* ipad and below */
 @media (max-width:  768px) {
 
+    section {
+        margin-top: 15%;
+    }
+
     .about-br {
         display: none;
     }

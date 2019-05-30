@@ -14,16 +14,16 @@ get_header();
                 <div class="start-links-left">
                 <div class="evil"><span class="strike">Evil corporations</span></div>
                 <div class="evil"><span class="strike">Dubious motives</span></div>
-                <a href="https://olofmogard.com/2018/05/05/uddevalla-gymnasieskola/" class="good"><span class="stike-under">Schools</span></a>
+                <a href="https://olofmogard.com/uddevalla-gymnasieskola/" class="good"><span class="stike-under">Schools</span></a>
                 <a href="https://olofmogard.com/2019/05/21/blysjon-2018/" class="good"><span class="stike-under">Festivals</span></a>
                 <div class="evil"><span class="strike">Influencer beefs</span></div>
             </div>
             <div class="start-links-right">
-                <a href="https://olofmogard.com/2018/10/24/exhibition-sthlm/" class="good"><span class="stike-under">Software companies</span></a>
+                <a href="https://olofmogard.com/exhibition-sthlm/" class="good"><span class="stike-under">Software companies</span></a>
                 <a href="https://olofmogard.com/blog/" class="good"><span class="stike-under">Myself</span></a>
                 <div class="evil"><span class="strike">Conservatives</span></div>
                 <div class="evil"><span class="strike">"See it as an experience"</span></div>
-                <a href="https://olofmogard.com/2016/05/23/sturekvarteret/" class="good"><span class="stike-under">Posh plazas</span></a>
+                <a href="https://olofmogard.com/sturekvarteret/" class="good"><span class="stike-under">Posh plazas</span></a>
             </div>
         </div>
     </div>

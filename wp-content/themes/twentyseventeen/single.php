@@ -71,12 +71,12 @@ get_header();
 				
 			}
 			?>
-			<div class="prev-post" data-href="<?php echo get_post_permalink($prev_post) ?>">
+			<div class="prev-post" data-href="<?php the_permalink($prev_post) ?>">
 				<div class="bottom-nav-direction">
-					<a href="<?php echo get_post_permalink($prev_post) ?>">Next</a>
+					<a href="<?php the_permalink($prev_post) ?>">Next</a>
 				</div>
 				<div class="bottom-nav-name">
-					<a href="<?php echo get_post_permalink($prev_post) ?>"><?php echo $prev_post->post_title?></a>
+					<a href="<?php the_permalink($prev_post) ?>"><?php echo $prev_post->post_title?></a>
 				</div>
 			</div>
 		</div>

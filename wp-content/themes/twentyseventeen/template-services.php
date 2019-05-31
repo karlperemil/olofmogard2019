@@ -38,7 +38,7 @@ get_header();
                 Logotypes<br>
                 Visual identity<br>
                 Illustration<br>
-                Style guides<br>
+                Prototypes<br>
                 UI/UX design<br>
                 HTML & CSS<br>
                 Motion design<br>

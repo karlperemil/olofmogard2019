@@ -15,7 +15,7 @@ get_header();
                 <div class="evil"><span class="strike">Evil corporations</span></div>
                 <div class="evil"><span class="strike">Dubious motives</span></div>
                 <a href="https://olofmogard.com/uddevalla-gymnasieskola/" class="good"><span class="stike-under">Schools</span></a>
-                <a href="https://olofmogard.com/2019/05/21/blysjon-2018/" class="good"><span class="stike-under">Festivals</span></a>
+                <a href="https://olofmogard.com/blysjon-2018/" class="good"><span class="stike-under">Festivals</span></a>
                 <div class="evil"><span class="strike">Influencer beefs</span></div>
             </div>
             <div class="start-links-right">

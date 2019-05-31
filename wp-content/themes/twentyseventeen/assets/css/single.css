@@ -110,7 +110,7 @@ body.single .flexcont{
 
 .full-width-16-9 {
     width: 100%;
-    margin-bottom: 7.5rem;
+    margin-bottom: 12rem;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -297,6 +297,10 @@ body.single .flexcont{
 
 /* ipad and less */
 @media (max-width: 768px){
+
+    .full-width-16-9 {
+        margin-bottom: 8rem;
+    }
 
     .single {
         margin-top: 13rem;

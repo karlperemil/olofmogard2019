@@ -23,7 +23,7 @@ get_header();
                 <a href="https://olofmogard.com/blog/" class="good"><span class="stike-under">Myself</span></a>
                 <div class="evil"><span class="strike">Conservatives</span></div>
                 <div class="evil"><span class="strike">"See it as an experience"</span></div>
-                <a href="https://olofmogard.com/sturekvarteret/" class="good"><span class="stike-under">Posh plazas</span></a>
+                <a href="https://olofmogard.com/sturekvarteret-2/" class="good"><span class="stike-under">Posh plazas</span></a>
             </div>
         </div>
     </div>

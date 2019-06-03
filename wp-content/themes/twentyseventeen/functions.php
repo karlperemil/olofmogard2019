@@ -487,14 +487,6 @@ function twentyseventeen_scripts() {
 
 	wp_register_script('index-emil', get_theme_file_uri( '/assets/js/index.js' ), array('jquery','jquery-scrollto'), NULL);
 	wp_enqueue_script('index-emil');
-	wp_register_script('three-js', get_theme_file_uri( '/assets/js/three.js' ), array('jquery','jquery-scrollto','index-emil'), NULL);
-	wp_enqueue_script('three-js');
-	wp_register_script('gltfloader', get_theme_file_uri( '/assets/js/gltfloader.js' ), array('jquery','jquery-scrollto','index-emil'), NULL);
-	wp_enqueue_script('gltfloader');
-	wp_register_script('css3drenderer', get_theme_file_uri( '/assets/js/css3drenderer.js' ), array('jquery','jquery-scrollto','gltfloader'), NULL);
-	wp_enqueue_script('css3drenderer');
-	wp_register_script('objloader', get_theme_file_uri( '/assets/js/OBJLoader.js' ), array('jquery','jquery-scrollto','gltfloader'), NULL);
-	wp_enqueue_script('objloader');
 	//(wp_enqueue_script( 'index-emil', get_theme_file_uri( '/assets/js/index.js' ), array( 'jquery' ), '1.0', true );
 
 	// Load the dark colorscheme.
